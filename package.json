@@ -1,0 +1,27 @@
+{
+  "name": "emailautomation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node src/app.ts",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/node": "^20.14.9",
+    "bullmq": "^5.8.3",
+    "dotenv": "^16.4.5",
+    "google-auth-library": "^9.11.0",
+    "googleapis": "^140.0.1",
+    "openai": "^4.52.2",
+    "redis": "^4.6.14",
+    "typescript": "^5.5.2"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2"
+  }
+}
